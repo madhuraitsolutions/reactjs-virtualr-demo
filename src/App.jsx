@@ -1,6 +1,7 @@
 import FeatureSection from "./components/FeatureSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import Pricing from "./components/Pricing";
 import WorkflowSection from "./components/WorkflowSection";
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
         <HeroSection/>
         <FeatureSection/>
         <WorkflowSection/>
+        <Pricing/>
       </div>
     </>
   )
